@@ -1,0 +1,19 @@
+{
+  "name": "cypress-cucumber-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  }
+}
